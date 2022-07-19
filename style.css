@@ -1,91 +1,168 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
 
-body {
-    background-color: #AAAAAA;
-    margin: 80px 110px 0px 110px;
-}
+ header,
+ main {
+     /* background-color: #AAAAAA; */
+     background-color: #fff;
+     margin: 80px 110px 0px 110px;
+ }
 
-a {
-    text-decoration: none;
-}
+ a {
+     text-decoration: none;
+ }
 
-/* ----------------------------------------------------------------
+ /* ----------------------------------------------------------------
                           Header Design
 ------------------------------------------------------------------- */
 
-.nav-bar {
-    display: flex;
-    padding: 10px;
-    justify-content: space-between;
-}
+ .nav-bar {
+     display: flex;
+     padding: 10px;
+     justify-content: space-between;
+ }
 
-.nav-bar .nav-bar-logo h1 {
-    font-size: 24px;
-    font-weight: 700;
-}
+ .nav-bar .nav-bar-logo h1 {
+     font-size: 24px;
+     font-weight: 700;
+ }
 
-.nav-bar-menu ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 34px;
-}
+ .nav-bar-menu ul {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     gap: 34px;
+ }
 
-.nav-bar-menu ul li {
-    list-style: none;
-    cursor: pointer;
-}
+ .nav-bar-menu ul li {
+     list-style: none;
+     cursor: pointer;
+ }
 
-.nav-bar-menu ul li a {
-    text-decoration: none;
-    color: black;
-    font-size: 21px;
-    font-weight: 600;
-}
+ .nav-bar-menu ul li a {
+     text-decoration: none;
+     color: black;
+     font-size: 21px;
+     font-weight: 600;
+ }
 
-/*----------------------------------------------------------------
+ /*----------------------------------------------------------------
                         Main Menu Design
   ----------------------------------------------------------------*/
-.prebook {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
+ .prebook {
+     display: flex;
+     gap: 10px;
+     align-items: center;
+ }
 
-.prebook-title {
-    width: 50%;
-}
+ .prebook-title {
+     width: 50%;
+ }
 
-.prebook-products {
-    width: 50%;
-}
+ .prebook-products {
+     width: 50%;
+ }
 
-.prebook-products img {
-    border: 1px solid #fff;
-    border-radius: 50%;
-    background-color: #f5efef;
-}
+ .prebook-products img {
+     border: 1px solid #AAAAAA;
+     border-radius: 50%;
+     background-color: #ffffff;
+     height: 100%;
+     width: 100%;
+     margin-top: 80px;
+ }
 
-.prebook-title p {
-    margin-bottom: 20px;
-}
+ .prebook-title p {
+     margin-bottom: 20px;
+ }
 
-.prebook-title h1 {
-    font-size: 52px;
-    font-weight: 700;
-}
+ .prebook-title h1 {
+     font-size: 52px;
+     font-weight: 700;
+ }
 
-.btn {
+ .btn {
 
-    background-color: #E02C6D;
-    border-radius: 15px;
-    padding: 5px 20px;
-}
+     background-color: #E02C6D;
+     border-radius: 15px;
+     padding: 5px 20px;
+ }
 
-.btn .fa-solid {
-    padding-left: 10px;
-}
+ .btn .fa-solid {
+     padding-left: 10px;
+ }
+
+ /*----------------------------------------------
+                  Various Site Design  
+------------------------------------------------*/
+ .site {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 100px;
+     margin-bottom: 100px;
+     border: 1px solid #ffffff;
+     padding: 36px;
+ }
+
+ /* -----------------------------------------------------------------
+                    Popular Collection Design 
+ --------------------------------------------------------------------*/
+ .collections {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 30px;
+ }
+
+ .collection {
+     background: #FFFFFF;
+     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+     border-radius: 5px;
+     width: 331px;
+     height: 400px;
+     padding: 15.5px;
+ }
+
+ .collection-title {
+     margin-bottom: 30px;
+     text-align: center;
+     font-size: 28px;
+     font-weight: 600;
+ }
+
+ .collection-content {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+
+ .collection-title h2 {
+     font-size: 28px;
+     font-weight: 500;
+ }
+
+ .collection-title h3 {
+     font-size: 28px;
+     font-weight: 400;
+ }
+
+ .collection-banner img {
+     Width: 300px;
+     Height: 256px;
+     margin-bottom: 16px;
+
+ }
+
+ .color {
+     color: gold;
+ }
+
+ .see-more {
+     text-align: right;
+     margin-right: 25px;
+     margin-top: 50px;
+     color: rgba(224, 44, 109, 0.87);
+ }
