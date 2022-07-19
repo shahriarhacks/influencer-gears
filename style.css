@@ -6,4 +6,39 @@
 
 body {
     background-color: #AAAAAA;
+    margin: 80px 110px 0px 110px;
+}
+
+/* ----------------------------------------------------------------
+                          Header Design
+------------------------------------------------------------------- */
+
+.nav-bar {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.nav-bar .nav-bar-logo h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav-bar-menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 34px;
+}
+
+.nav-bar-menu ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.nav-bar-menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-weight: 600;
 }
